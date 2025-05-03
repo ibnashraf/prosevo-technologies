@@ -89,7 +89,7 @@ flex-direction:column-reverse;
 height:1000px;
 width:90%;
 
-}
+
 .menu{
 gap:5px;
 font-size:3px;
@@ -112,6 +112,15 @@ font-size:3px;
     font: size 20px;
   }
 @media (max-width:600px){
+
+.page2{
+flex-direction:column-reverse;
+height:1000px;
+width:100%;
+align-items:center;
+padding:0 0 300px 0;
+
+}
 .page2img{
   grid-template-columns:1fr;
 }
