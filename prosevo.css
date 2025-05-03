@@ -83,10 +83,7 @@
     width: 80px;
     
 }
-@media (max-width:600px){
-.parent{
-flex-direction:column-reverse;
-}}
+
 
   .page2{
     width:100%;
