@@ -146,11 +146,6 @@ service-content p{
    color:#555;
 }
 
-@media (max-width:600px){
-.services{
-grid-template-columns:1fr;
-}
-}
 
 
 
@@ -225,11 +220,7 @@ color:#000;
   color:white;
   font-size:1rem;
 }
-@media(max-width:990px){
-.cards{
-grid-template-columns:1fr;
-}
-}
+
 
 
 
@@ -289,17 +280,6 @@ grid-template-columns:1fr;
 .gallery-text a{
    color:yellow;
    text-decoration:none;
-}
-@media (max-width:990px){
-.gallery{
-grid-template-columns:1fr;
-}
-}
-
-@media (max-width:600px){
-.gallery{
-grid-template-columns:1fr;
-}
 }
 
 
@@ -371,10 +351,7 @@ button{
   cursor:pointer;
 }
 
-@media screen and(max-width:770px){
-.contact{
-flex-direction:column;}
-}
+
 
 footer{
   background:#2b2b2b;
