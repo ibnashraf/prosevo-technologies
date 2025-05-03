@@ -82,17 +82,6 @@
     height: 60px;
     width: 80px;
     
-  }
-@media (max-width:600px){
-.navbar{
-flex-direction:column-reverse;
-}
-}
-
-@media (max-width:600px){
-.page2{
-flex-direction:column-reverse;
-}
 }
 
   .page2{
