@@ -83,6 +83,11 @@
     width: 80px;
     
   }
+@media(max-width:600px){
+.navbar{
+flex-direction:column;
+}
+}
 
   .page2{
     width:100%;
