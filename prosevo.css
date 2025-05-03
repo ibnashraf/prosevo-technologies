@@ -83,7 +83,11 @@
     width: 80px;
     
 }
-
+@media(max-width:600px){
+. parent{
+grid-template-columns:1fr;
+}
+}
 
   .page2{
     width:100%;
@@ -147,6 +151,11 @@ service-content p{
    color:#555;
 }
 
+@media (max-width:600px){
+.services{
+grid-template-columns:1fr;
+}
+}
 
 
 
@@ -223,7 +232,11 @@ color:#000;
   font-size:1rem;
 }
 
-
+@media (max-width:900px){
+.cards{
+grid-template-columns:1fr;
+}
+}
 
 
 
@@ -284,6 +297,16 @@ color:#000;
    text-decoration:none;
 }
 
+@media (max-width:600px){
+.gallery{
+grid-template-columns:1fr;
+}
+}
+@media (max-width:900px){
+.gallery{
+grid-template-columns:1fr;
+}
+}
 
 
 
@@ -352,7 +375,11 @@ button{
   border-radius:5px;
   cursor:pointer;
 }
-
+@media (max-width:800px){
+.contact{
+flex-direction:column;
+}
+}
 
 
 
