@@ -85,7 +85,7 @@
   }
 @media(max-width:600px){
 .navbar{
-flex-direction:column;
+flex-direction:column-reverse;
 }
 }
 
